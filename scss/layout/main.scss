@@ -1,0 +1,72 @@
+* {
+	font-family: $font-family_1;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+}
+main {
+	height: 65vh;
+}
+.subtitle {
+	font-size: 30;
+	font-weight: 400;
+	text-align: center;
+	color: $color_2;
+}
+.product-container {
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+	width: 80%;
+	justify-content: center;
+	margin-top: 40px;
+}
+.card-services {
+	padding: 0px;
+	border-bottom-right-radius: 25px;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	width: 300px;
+	margin: 0px;
+	height: 400px;
+	h3 {
+		padding: 0;
+		font-size: 30px;
+		margin-bottom: 15px;
+		font-weight: 300px;
+	}
+	p {
+		padding: 0;
+		font-size: 15px;
+		margin-bottom: 20px;
+		font-weight: 300px;
+		color: $color_2;
+	}
+}
+.image-background {
+	margin: 0;
+	padding: 0;
+	background-image: url("../images/Julia-background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.julia-exist {
+	font-size: 35;
+	font-weight: 100;
+	text-align: center;
+	color: $color_3;
+}
+.julia {
+	font-size: 25;
+	font-weight: 200;
+	text-align: center;
+	color: $color_1;
+}
+#news {
+	h2 {
+		font-size: 40;
+		font-weight: 500;
+		text-align: center;
+	}
+}

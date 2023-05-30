@@ -1,0 +1,15 @@
+header {
+	color: $color_1;
+	background-color: $background-color_1;
+	height: 15vh;
+}
+.navbar-nav {
+	margin: 0px;
+	padding: 0px 12px;
+	list-style-type: none;
+	display: flex;
+	justify-content: end;
+	align-items: end;
+	width: 100%;
+	z-index: 99;
+}
